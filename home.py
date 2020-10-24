@@ -7,7 +7,7 @@ print("############################################################")
 keepgoing = input("Do you want to keep going? Enter yes or no.")
 
 if keepgoing.lower()[0] != 'y':
-    sys.exit(1)
+    sys.exit(0)
 
 a = input("What is your name:\n ", )
 print(f"hello {a} welcome to my guessing game guess in six or less tries to win 5oz of gold!\n ")
