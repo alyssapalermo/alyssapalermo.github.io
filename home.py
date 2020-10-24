@@ -31,7 +31,7 @@ while win==False:
                 thing = str(thing)[0:4]
                 
             print("Thank you your pirate golden chocolate pieces are on the way!\n")
-            print ("You are bankrupt and highly in debt on your credit card that may or may not have been this programs fault")
+            print ("You are highly in debt on your credit card that may or may not have been this programs fault")
         win == True
         break
     else:
