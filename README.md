@@ -1,6 +1,5 @@
 # this is some stuff
-## subheading and its totally safe
-And this is some text.
-
-[What I worked on at home.](home.py)
+## and its totally safe
+python thing #1
+[Guessing game that is very safe.](home.py)
 
