@@ -4,4 +4,4 @@ python thing #1
 
 [Guessing game that is very safe.](https://github.com/alyssapalermo/alyssapalermo.github.io/blob/master/home.py)
 
-Click [here](https://mybinder.org/v2/gh/alyssapalermo/alyssapalermo.github.io.git/HEAD) to play at mybinder.org
+Click [here](https://mybinder.org/v2/gh/alyssapalermo/alyssapalermo.github.io.git/HEAD?filepath=home.ipynb) to play at mybinder.org
