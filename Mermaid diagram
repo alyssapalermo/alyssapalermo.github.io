@@ -1,0 +1,15 @@
+```mermaid
+Guessing game diagram
+```
+flowchart TD
+       A[Start Game] --> B[Computer chooses a random number between 1 and 100 and asks user to make a guess]
+    B --> C[User makes a guess]
+    C --> D{Is the guess correct?}
+    D -->|Yes| E[User wins!]
+    D -->|No| F{Is the guess too high or too low?}
+    F -->|Too high| G[Hint: Guess lower]
+    F -->|Too low| H[Hint: Guess higher]
+    G --> C
+    H --> C
+    E --> I[End Game]
+  
