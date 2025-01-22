@@ -10,6 +10,7 @@ flowchart TD
     G --> C
     H --> C
     E --> I[End Game]
+```
 
 #### Mermaid Flowchart description
 
