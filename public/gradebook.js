@@ -1,3 +1,5 @@
+
+// comments go here
 function fetchGradeData() {
     console.log("Fetching grade data...");
 
@@ -54,4 +56,4 @@ function populateGradebook(data) {
         tableElm.appendChild(row);
     });
 }
-
+fetchGradeData();
