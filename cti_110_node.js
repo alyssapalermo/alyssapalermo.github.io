@@ -18,6 +18,15 @@ const pool = new Pool({connectionString:connectionString})
 // check in sub-folder "public"
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use('/public', express.static(path.join(__dirname, 'public'), {
+    setHeaders: (res, filePath) => {
+      // Set the correct MIME type for .js files
+      if (path.extname(filePath) === '.js') {
+        res.setHeader('Content-Type', 'text/javascript');
+      }
+    }
+  }));
+  
 // This creates a new anonymous function that runs whenever 
 // someone calls "get" on the server root "/"
 router.get('/', function(req, res){
